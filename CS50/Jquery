@@ -1,0 +1,79 @@
+
+Ajax - allows http requests. Ajax sends the additional http requests. (ie, when youre scrolling across a map and tiles of information/location/map are loaded);
+
+A callback - an anonymous function, a Lamda function. an anonymous function can also take an argument.
+ a synchronicity will allow your website to do other things while you are waiting for data to return. or you can prepare/be ready to do other things while youre waiting
+
+function quote() {
+        $.getJSON("/quote").
+}
+
+
+
+javascript plus a google maps API can create an interactive map.
+
+<script>  
+
+
+
+
+
+
+
+
+<form action="/register" id="regiistration" method="get">
+
+</form>
+</script>
+
+
+
+
+if (!form.email.value == "")
+    {
+        alert("missing email");
+        return false;
+    }
+else if (!form.password.value    
+    
+    
+    
+    jQuery used $ as a valid symbol for functionality to identify objects (your webpage or parts of it)
+        perform actions on the objects. Shorter than javascript, does the same thing just identifies objects easily.
+    
+    document - the global variable referring to the whole website.
+    
+    
+  a call back, a synchronous code
+  
+    navigator.geolocation.getCurrentPosition(function(position) {
+        document.write(position.coords.latitude + ',' + position.coords.latitude);
+    });
+    
+    
+    BLINK TAG
+    
+    HIDDEN/VISIBLE
+    
+    blink function can change between hidden and visible
+ function blink()
+ {
+    var div = document.getElementById("greeting");
+        if (div.style.visibility = "hidden";) {
+            div.style.visibility = "visible";
+    }
+        else (div.style.visibility = "visible";) {
+            div.style.visibility = "hidden";
+    }
+    
+    
+    // blink every 500ms
+    window.setInterval(blink, 500);
+    
+    
+    you can use the google maps api to create a map!! You can create functionality on the map (ie open a textbox).
+    You can use fuctions to call information onclick (ie, ifyou click a location your browser will pass the location and return news articles within the same location/area on the map.
+    you can search by city, zip code, 
+    
+    US.text if a file you can import into a database(like SQL) and it has all the location data
+    

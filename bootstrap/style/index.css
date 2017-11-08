@@ -1,0 +1,15 @@
+.jumbotron-fluid {
+    background: url(https://img.buzzfeed.com/buzzfeed-static/static/2014-06/14/15/enhanced/webdr02/anigif_enhanced-854-1402772731-5.gif?downsize=715:*&output-format=auto&output-quality=auto) no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+.jumbotron-fluid h1 {
+    margin-top: 10vh;
+    text-align: center;
+    color: hotpink;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}

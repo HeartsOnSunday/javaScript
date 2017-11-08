@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<div id="main">
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+</div>
+
+<div id="watchthis">Before</div>
+<!--
+<script>
+    document.getElementById("watchthis").innerHTML="After";
+    document.getElementById("main").innerHTML="Also After";
+</script>-->
+<button onclick="changeElements()">Try it</button>
+
+<script>
+function changeElements() {
+    
+    document.getElementById("watchthis").innerHTML="After";
+    document.getElementById("main").innerHTML="After";
+    
+}
+</script>
+
+<button onclick="changeElementsBack()">Fix it</button>
+
+<script>
+function changeElementsBack() {
+    document.getElementById("watchthis").innerHTML="WOW";
+    document.getElementById("main").innerHTML="GO HOME NOW";
+}
+</script>
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+

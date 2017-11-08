@@ -1,0 +1,271 @@
+    1  cd ~
+    2  cd workspace/
+    3  mkdir htmlLesson
+    4  cd htmlLesson?
+    5  cd htmlLesson/
+    6  touch index.html
+    7  c9 index.html
+    8  touch style.css
+    9  c9 style.css
+   10  cd ..
+   11  git init
+   12  ls -a
+   13  cd ..
+   14  cd workspace/
+   15  cd htmlLesson/
+   16  git init
+   17  git status
+   18  git add index.html
+   19  git status
+   20  git add .
+   21  git status
+   22  git commit
+   23  git commit -m "innitial commit"
+   24  git status
+   25  git checkout index.html
+   26  git checkout style.css
+   27  ..
+   28  cd htmlLesson/
+   29  git status
+   30  mkdir scripts
+   31  cd scripts/
+   32  touch scripts.js
+   33  cp scripts.js
+   34  c9 scripts.js
+   35  git status
+   36  -A
+   37  git add -A
+   38  git status
+   39  git commit -m "modify index and add scripts.js"
+   40  git commit -A
+   41  git add -A
+   42  git status
+   43  git commit -m "modified html"
+   44  git remote add origin git@github.com:HeartsOnSunday/CDgitLesson.git
+   45  git push -u origin master
+   46  history > history.txt
+   47  cd..
+   48  git status
+   49  git add -A
+   50  git status
+   51  cd ~
+   52  cd Project1TributePage/
+   53  pwd
+   54  cd workspace/
+   55  pwd
+   56  cd Project1TributePage/
+   57  c9 CybersecurityTribute
+   58  git commit -m "Innitial Commit"
+   59  git status
+   60  git remote add origin git@github.com:HeartsOnSunday/Project1-Tribute.git
+   61  git push -u origin master
+   62  cd ..
+   63  ls
+   64  unzip git_tutorial.zip 
+   65  cd work/
+   66  mkdir hello
+   67  cd hello/
+   68  c9 hello
+   69  touch hello
+   70  c9 hellp
+   71  c9 hello
+   72  git init
+   73  git add hello.rb
+   74  clear
+   75  git init
+   76  git add hello.rb
+   77  git commit -m "First Commit"
+   78  pwd
+   79  cd . git/
+   80  git add git.rb
+   81  cd .git/
+   82  pwd
+   83  li
+   84  ls
+   85  ..
+   86  ls
+   87  git add git.rb
+   88  git commit m- "first commit"
+   89  git commit -m "first commit"
+   90  cd ~
+   91  cd workspace/Project1TributePage/
+   92  git init
+   93  git add CybersecurityTribute.html
+   94  git commit -m "First Commit"
+   95  git status
+   96  cd ~
+   97  cd workspace/git_tutorial/work/hello
+   98  ls
+   99  git status
+  100  c9 git.rb
+  101  puts "Hello, #{ARGV.first}!"
+  102  git status
+  103  c9 HCHeval
+  104  puts "Hello, #{ARGV.first}"
+  105  git status
+  106  git add hello.rb
+  107  git add git.rb
+  108  git status
+  109  puts "Hello #{ARGV.first}"
+  110  puts "Hello #{ARGV.first}!"
+  111  c9 hello.rb
+  112  puts "Hello, #{ARGV.first}!"
+  113  git status
+  114  git add hello.rb
+  115  git status
+  116  git commit
+  117  cd Project1TributePage/
+  118  c9 CybersecurityTribute.html 
+  119  git init
+  120  git add CybersecurityTribute.html 
+  121  git commit CybersecurityTribute.html 
+  122  c
+  123  clear
+  124  cd ~
+  125  cd workspace/git_tutorial/work/hello/
+  126  add hello.rb
+  127  cd .git
+  128  ls
+  129  cd~
+  130  cd ~
+  131  cd workspace/
+  132  mkdr algorithm
+  133  mkdir algorithm
+  134  cd algorithm/
+  135  touch algo.js
+  136  c9 algo.js 
+  137  c9 algo.html
+  138  ...
+  139  ..
+  140  mkdir js
+  141  cd js/
+  142  touch script.js
+  143  c9 script.js 
+  144  node script.js 
+  145  ..
+  146  ls
+  147  pwd
+  148  cd
+  149  cd workspace/
+  150  ..
+  151  cd workspace/
+  152  cd /
+  153  ls
+  154  cd home/ubuntu/workspace/
+  155  cd /home
+  156  cd ~/workspace/
+  157  ls
+  158  mkdir unix101a
+  159  ls
+  160  mv cd unix101a/
+  161  cd unix101a/
+  162  ls
+  163  mkdir rhode island
+  164  ls
+  165  mkdir rhode\ island
+  166  ls
+  167  mkdir "new york"
+  168  ls
+  169  cd rhode\ island
+  170  ls
+  171  mkdir providence warwick
+  172  ls
+  173  touch providence/475valleyst
+  174  ls
+  175  ls providence/
+  176  cd providence/
+  177  ls
+  178  touch 123smithst
+  179  touch 499hopest
+  180  ls
+  181  dir
+  182  mkdir eastside
+  183  mkdir southside
+  184  ls
+  185  ls -la
+  186  echo waterfire 
+  187  echo waterfire > 475valleyst 
+  188  ls 
+  189  ls 475valleyst 
+  190  cat 475valleyst 
+  191  cat 499hopest 
+  192  echo careerDevs > 475valleyst 
+  193  ls
+  194  cat 475valleyst 
+  195  echo Waterfire >> careerDevs
+  196  echo waterfire >> 475valleyst 
+  197  cat 475valleyst 
+  198  vi 475valleyst 
+  199  cat 475valleyst 
+  200  ls
+  201  ls -la
+  202  chmod 740 475valleyst 
+  203  ls -la
+  204  475valleyst
+  205  ./475valleyst 
+  206  cd ~
+  207  cd /workspace
+  208  cd home/
+  209  cd home
+  210  pwd
+  211  workspace/
+  212  cd workspace/
+  213  mkdir javascript/DOM
+  214  mkdir javascript
+  215  ls
+  216  cd javascript/
+  217  mkdir DOM
+  218  .
+  219  cd DOM/
+  220  touch index.html
+  221  c9 index.html 
+  222  ..
+  223  mkdir UNIX102
+  224  touch UNIX102/names
+  225  ls -la
+  226  cd UNIX102/
+  227  ls
+  228  la -la
+  229  ..
+  230  ls UNIX102/
+  231  ls CS50/
+  232  ..
+  233  cd workspace/
+  234  pwd
+  235  ls -l
+  236  cd UNIX102/
+  237  ls -l
+  238  ls -la
+  239  vi
+  240  vi names
+  241  cat names
+  242  echo Grace >> names
+  243  cat names
+  244  echo the chick >> names
+  245  cat names
+  246  vi names
+  247  touch presto
+  248  ls -la
+  249  echo "ls -la" > presto
+  250  cat presto
+  251  echo "touch chango" >> presto
+  252  cat presto 
+  253  echo "cat names" >> presto
+  254  cat presto
+  255  vi presto
+  256  cat presto
+  257  ls -la
+  258  chmod 744 presto 
+  259  ls -la
+  260  presto
+  261  .presto
+  262  ./presto
+  263  cat presto
+  264  ls
+  265  ls -la
+  266  chmod 745 presto
+  267  ls -la
+  268  vi index.html
+  269  cat index.html 
+  270  history
+  271  history > myunixhistory

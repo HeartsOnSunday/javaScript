@@ -1,0 +1,29 @@
+What is an anonymous function? Why is it helpful, when to use it.
+
+
+
+
+
+
+
+<body>
+<form id="demo">
+
+<input autocomplete="off" auto
+
+
+</script>
+
+
+
+document.getElementById("demo").onsubmit = function() {
+    let name = document.getElementById("name").value;
+    alert("hello, " + ${name});
+}
+
+</script>
+</body>
+
+
+/*the ananymous function only runs onsubmit (useful af)*/
+/*call greet but dont use the () because you dont want the code to run until its called (only onsubmit). */
